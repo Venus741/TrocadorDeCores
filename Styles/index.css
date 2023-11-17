@@ -1,0 +1,25 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    background-color: #252525;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex; /*Tornar os componentes do escolpo flexíveis para movimentação*/
+}
+
+.trocador {
+    background-color:blue;
+    display: flex;
+    color: #252525;
+    cursor: pointer;
+    width: 250px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin:auto; /*Definir uma margem automática para a div chill*/
+}
