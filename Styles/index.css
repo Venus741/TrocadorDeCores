@@ -8,8 +8,9 @@ h1 {
     text-align: center;
 }
 
-.container {
+.container, .container2 {
     display: flex; /*Tornar os componentes do escolpo flexíveis para movimentação*/
+    margin: 5px;
 }
 
 .trocador {
@@ -23,3 +24,40 @@ h1 {
     align-items: center;
     margin:auto; /*Definir uma margem automática para a div chill*/
 }
+
+.identificador {
+    display: flex;
+    background-color: #d8d8d8;
+    color: #252525;
+    cursor: pointer;
+    width: 250px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin:auto; /*Definir uma margem automática para a div chill*/
+}
+
+.container3 {
+    display: flex;
+    margin: 10px;
+}
+
+.input{
+    background-color: #646464;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 130px;
+    border: 0;
+}
+ .button {
+    background-color: darkslateblue;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+ }
