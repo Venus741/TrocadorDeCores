@@ -11,6 +11,8 @@ h1 {
 .container, .container2 {
     display: flex; /*Tornar os componentes do escolpo flexíveis para movimentação*/
     margin: 5px;
+    
+
 }
 
 .trocador {
@@ -23,6 +25,8 @@ h1 {
     justify-content: center;
     align-items: center;
     margin:auto; /*Definir uma margem automática para a div chill*/
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px blue;
 }
 
 .identificador {
@@ -35,6 +39,8 @@ h1 {
     justify-content: center;
     align-items: center;
     margin:auto; /*Definir uma margem automática para a div chill*/
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px #d8d8d8;
 }
 
 .container3 {

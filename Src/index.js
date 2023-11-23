@@ -6,7 +6,7 @@ function trocador() {
     let alterar = cores[corAtual]; // nova variável chamando a cor da array que está no index "0"
 
     divTrocador.style.backgroundColor = alterar; // Div recebendo váriável de alteração anterior
-
+    divTrocador.style.boxShadow = "0px 0px 20px" + alterar; //Div recebendo parametros para ateração de box Shadow
     
     corAtual = (corAtual +1) % cores.length; // "corAtual" recebendo ela mesma + próxima cor da array. O operador "%" faz com que o resto da divisão retorne pra zero, quando chegar no limite da array. Sempre seguindo a sequencia da esquerda para a direita.
 }
@@ -17,4 +17,5 @@ let input = document.querySelector(".input"); // recebe o valor informado no inp
 function encontrar() {
     let receber = input.value; // converte o input em valor legível para ser trabalhado
     divMostrador.style.backgroundColor = receber; // aplicação de método para o valor do input alterar o CSS
+    divMostrador.style.boxShadow = "0px 0px 20px" + receber;
 }
